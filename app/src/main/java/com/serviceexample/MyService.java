@@ -10,7 +10,7 @@ import android.widget.Toast;
 
 //public class MyService extends Service {
 //
-//    protected class MyThread implements Runnable {
+//    final class MyThread implements Runnable {
 //        private int service_id;
 //
 //        public MyThread(int service_id) {
@@ -18,7 +18,7 @@ import android.widget.Toast;
 //        }
 //
 //        /**
-//         * Application NotResponding Error(ANR) is rectified
+//         * Application NotResponding Error(ANR) is rectified by using thread
 //         */
 //        @Override
 //        public void run() {

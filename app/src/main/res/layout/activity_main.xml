@@ -21,4 +21,10 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="@string/stop_service" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/enter_text"
+        android:gravity="center"
+        android:hint="Enter Any Text you Want"/>
 </LinearLayout>

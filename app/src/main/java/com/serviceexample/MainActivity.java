@@ -9,11 +9,13 @@ import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private Button btn_start, btn_stop;
+    private EditText enter_text;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        enter_text= (EditText) findViewById(R.id.enter_text);
         btn_start = (Button) findViewById(R.id.btn_start);
         btn_start.setOnClickListener(this);
         btn_stop = (Button) findViewById(R.id.btn_stop);
